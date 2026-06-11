@@ -18,3 +18,5 @@
 # else:
 #     print("Siz kesilmisiz")
 #
+
+#C:\Users\gulna\PycharmProjects\QuantumLessons\mentorLessons\lesson2\lesson2.py
