@@ -40,13 +40,13 @@
 
 
 # eded=20
-eded=int(input("Ededi daxil edin"))
-cem=0
-
-for i in range(1,eded+1):
-    if i%2==0:
-        cem=cem+i
-print(cem)
+# eded=int(input("Ededi daxil edin"))
+# cem=0
+#
+# for i in range(1,eded+1):
+#     if i%2==0:
+#         cem=cem+i
+# print(cem)
 
 
 
