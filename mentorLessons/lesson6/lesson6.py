@@ -82,10 +82,53 @@
 #         boyuk_xercler.append(xerc)
 
 
-print("30 AZN-dən çox olan xərclər:", butun_xercler)
-print("Sayı:", len(butun_xercler))
+# print("30 AZN-dən çox olan xərclər:", butun_xercler)
+# print("Sayı:", len(butun_xercler))
 
 
 
 # print("30 AZN-dən çox olan xərclər:", böyük_xərclər)
 # print("Sayı:", len(böyük_xərclər))
+
+
+
+
+# reqemler=[3,4,5,123,13]
+# reqemler.sort()
+#
+# kecdi=[]
+# kecmedi=[]
+#
+#
+# for i in reqemler:
+#     if i>60:
+#         kecdi.append(i)
+#     else:
+#         kecmedi.append(i)
+#
+# print(kecdi)
+# print(kecmedi)
+#
+
+
+
+sinif_a = [75, 90, 55]
+sinif_b = [80, 45, 95, 60]
+
+# 1. İki siyahını + ilə birləşdirmək
+butun_qiymetler = sinif_a + sinif_b
+
+# 2. Siyahını böyükdən kiçiyə sıralamaq
+butun_qiymetler.sort(reverse=True)
+print("Sıralanmış bütün qiymətlər:", butun_qiymetler)
+
+kecenler=[]
+
+for i in butun_qiymetler:
+    if i>60:
+        kecenler.append(i)
+
+
+# 4. Keçənlərin sayını çap etmək
+print("İmtahandan keçənlərin qiymətləri:", kecenler)
+print("Keçənlərin sayı:", len(kecenler))
