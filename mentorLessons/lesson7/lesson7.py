@@ -47,26 +47,9 @@
 # print(type(telebeler))
 
 
-
-
-
-
 # telebe_ad="ELi"
 # telebe_yash=20
 # telebe_bal=90
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
 #
 #
 #
@@ -105,17 +88,15 @@
 # # else:
 # #     print("yoxdur")
 #
-#
-#
-#
-# #
+
 # # hobiler.discard("qacmaq")
 # # hobiler.remove("qacmaq")
 #
 #
-#
-#
-#
-#
 # # hobiler.add("oxumaq")
 # # print(hobiler)
+
+# list=[1,4,2,5]
+# print(max(list))
+
+#sum-toplama
